@@ -14,7 +14,7 @@ const Solutions = () => {
       </div>
       
       <div className="flex flex-col pt-4 md:flex-row justify-around space-y-8 md:space-y-0 md:space-x-4">
-        {/* Architecture */}
+        
         <div className="flex flex-col items-start space-y-4">
           <ArchitectureIcon />
           <h3 className="text-2xl font-bold text-black">Architecture</h3>
@@ -26,7 +26,7 @@ const Solutions = () => {
             </span>
           </a>
         </div>
-        {/* Interior Design */}
+      
         <div className="flex flex-col items-start space-y-4">
           <InteriorDesignIcon />
           <h3 className="text-2xl font-bold text-black">Interior design</h3>
@@ -38,7 +38,7 @@ const Solutions = () => {
             </span>
           </a>
         </div>
-        {/* Real Estate */}
+     
         <div className="flex flex-col items-start space-y-4">
           <RealEstateIcon />
           <h3 className="text-2xl font-bold text-black">Real estate</h3>

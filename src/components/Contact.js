@@ -5,13 +5,12 @@ const Contact = () => {
   return (
     <div className="flex justify-center items-center min-h-screen w-full ">
       <div className="flex flex-col md:flex-row w-full md:w-4/5 h-auto bg-white shadow-lg">
-        {/* Image section */}
+        
         <div
           className="w-full md:w-2/5 h-64 md:h-auto bg-cover bg-center"
           style={{ backgroundImage: `url(${contact})` }}
         ></div>
 
-        {/* Contact details section */}
         <div className="w-full md:w-3/5 p-6 flex items-center justify-center bg-white">
           <div className="w-full">
             <h2 className="text-xl md:text-2xl font-bold mb-6">Get in touch</h2>
@@ -56,7 +55,7 @@ const Contact = () => {
                   className="p-2 border w-full rounded"
                 ></textarea>
               </div>
-              {/* Button with custom violet color */}
+             
               <button
                 type="submit"
                 style={{ backgroundColor: '#7c3cec', color: 'white' }}

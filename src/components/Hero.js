@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
-import hero from './heroimage.png'; // Adjusted to use the uploaded image
+import hero from './heroimage.png'; 
 
 const Hero = () => {
     return (
