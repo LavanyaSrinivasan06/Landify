@@ -13,11 +13,11 @@ const Navbar = () => {
   return (
     <header className="bg-custom-blue shadow fixed top-0 left-0 w-full z-50 h-24 py-4">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <div className="text-xl font-bold text-gray-900 flex items-center">
+        <div className="text-xl font-bold text-gray-900 flex items-center px-2">
           <img src={logo} className='w-6 h-6' alt="Logo" />
           <a href="#" className='text-xl px-2'>Landify</a>
         </div>
-        <nav className="hidden md:flex space-x-4">
+        <nav className="hidden md:flex space-x-4 pt-2">
           <a href="#" className="text-gray-800 hover:text-gray-600">About</a>
           <a href="#" className="text-gray-800 hover:text-gray-600">Service</a>
           <a href="#" className="text-gray-800 hover:text-gray-600">Awards</a>
