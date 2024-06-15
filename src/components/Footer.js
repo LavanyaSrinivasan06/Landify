@@ -1,6 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+
 import logo from './image.png';
 
 const Footer = () => {
@@ -31,6 +34,7 @@ const Footer = () => {
             <a href="https://instagram.com" className="hover:text-gray-400"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://twitter.com" className="hover:text-gray-400"><FontAwesomeIcon icon={faTwitter} /></a>
             <a href="https://youtube.com" className="hover:text-gray-400"><FontAwesomeIcon icon={faYoutube} /></a>
+            <a href='' className='hover:text-gray-400'><FontAwesomeIcon icon={faGlobe} /></a>
           </div>
         </div>
       </div>
