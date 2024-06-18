@@ -11,6 +11,7 @@ const Testimonial = () => {
           <FontAwesomeIcon icon={faQuoteLeft} />
         </div>
         <div className='flex flex-col mb-4'>
+           {/* textbase font-size: 1rem; 16px line-height: 1.5rem; */}
           <p className="text-sm sm:text-base md:text-xl font-medium">
             With the help of Landify, I have created a landing page for my startup.
           </p>

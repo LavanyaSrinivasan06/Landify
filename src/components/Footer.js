@@ -17,13 +17,13 @@ const Footer = () => {
           <span className="text-xl">Landify</span>
         </div>
 
-        <div className="flex justify-center space-x-4 sm:space-x-8 mb-4 flex-wrap">
-          <a href="#about" className="hover:text-gray-400">About</a>
-          <a href="#services" className="hover:text-gray-400">Services</a>
-          <a href="#awards" className="hover:text-gray-400">Awards</a>
-          <a href="#news" className="hover:text-gray-400">News</a>
-          <a href="#blog" className="hover:text-gray-400">Blog</a>
-          <a href="#contact" className="hover:text-gray-400">Contact</a>
+        <div className="flex justify-center space-x-4 sm:space-x-12 lg:space-x-24 mb-4 flex-wrap">
+          <a href="#" className="hover:text-gray-400">About</a>
+          <a href="#" className="hover:text-gray-400">Services</a>
+          <a href="#" className="hover:text-gray-400">Awards</a>
+          <a href="#" className="hover:text-gray-400">News</a>
+          <a href="#" className="hover:text-gray-400">Blog</a>
+          <a href="#" className="hover:text-gray-400">Contact</a>
         </div>
 
         <div className="border-t border-gray-800 my-4"></div>
@@ -34,7 +34,7 @@ const Footer = () => {
             <a href="https://instagram.com" className="hover:text-gray-400"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://twitter.com" className="hover:text-gray-400"><FontAwesomeIcon icon={faTwitter} /></a>
             <a href="https://youtube.com" className="hover:text-gray-400"><FontAwesomeIcon icon={faYoutube} /></a>
-            <a href='' className='hover:text-gray-400'><FontAwesomeIcon icon={faGlobe} /></a>
+            <a href='#' className='hover:text-gray-400'><FontAwesomeIcon icon={faGlobe} /></a>
           </div>
         </div>
       </div>

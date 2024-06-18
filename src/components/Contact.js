@@ -4,8 +4,8 @@ import contact from './contact.jpg';
 const Contact = () => {
   return (
     <div className="flex justify-center items-center min-h-screen w-full ">
-      <div className="flex flex-col md:flex-row w-full md:w-4/5 h-auto bg-white shadow-lg">
-        
+      <div className="flex flex-col md:flex-row w-full  h-auto bg-white shadow-lg">
+        {/* 2/5 w-[40%]   3/5 w-[60%]*/}
         <div
           className="w-full md:w-2/5 h-64 md:h-auto bg-cover bg-center"
           style={{ backgroundImage: `url(${contact})` }}
@@ -20,7 +20,7 @@ const Contact = () => {
             <form>
               <div className="flex flex-col md:flex-row mb-4">
                 <div className="mb-4 md:mb-0 md:mr-2 w-full">
-                  <label className="block text-sm font-medium">First name</label>
+                  <label className="text-sm font-medium">First name</label>
                   <input
                     type="text"
                     name="firstName"
@@ -29,7 +29,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="w-full">
-                  <label className="block text-sm font-medium">Last name</label>
+                  <label className=" text-sm font-medium">Last name</label>
                   <input
                     type="text"
                     name="lastName"
@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="mb-4">
-                <label className="block text-sm font-medium">Email address</label>
+                <label className="text-sm font-medium">Email address</label>
                 <input
                   type="email"
                   name="email"
@@ -48,7 +48,7 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label className="block text-sm font-medium">Message</label>
+                <label className="text-sm font-medium">Message</label>
                 <textarea
                   name="message"
                   placeholder="Message"
